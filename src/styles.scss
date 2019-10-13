@@ -3,3 +3,17 @@ body {
 }
 
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$harriers-yellow: #ffda3d;
+$harriers-yellow-dark: #8a7322;
+
+.btn-primary {
+  background-color: $harriers-yellow;
+  border-color: $gray-900;
+  color: $gray-900;
+}
+
+a {
+  color: $harriers-yellow-dark;
+}
