@@ -27,9 +27,10 @@ import { ContactComponent } from './contact/contact.component';
       {path: 'half-marathon', component: HalfMarathonComponent},
       {path: 'contact', component: ContactComponent},
       {path: '', redirectTo: 'home', pathMatch: 'full'},
-    ], {useHash: true, enableTracing: true})
+    ], {useHash: true})
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
